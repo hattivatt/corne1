@@ -97,7 +97,7 @@
             bindings = <
 &mt LEFT_GUI SCROLLLOCK  &kp C_BRIGHTNESS_INC  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &msc SCRL_UP    &mkp LCLK        &mmv MOVE_UP    &mkp RCLK        &trans  &kp RIGHT_GUI
 &mt LCTRL PAUSE_BREAK    &kp C_BRIGHTNESS_DEC  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MCLK         &mkp MCLK       &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &kp RCTRL
-&mt LEFT_ALT INSERT      &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4     &msc SCRL_DOWN    &msc SCRL_DOWN  &trans           &trans          &trans           &trans  &kp RIGHT_ALT
+&mt LEFT_ALT INSERT      &bt BT_SEL 0          &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &msc SCRL_DOWN    &msc SCRL_DOWN  &trans           &trans          &trans           &trans  &kp RIGHT_ALT
                                                                &trans          &kp LEFT_SHIFT   &trans            &trans          &kp RIGHT_SHIFT  &trans
             >;
 
