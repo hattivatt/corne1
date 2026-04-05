@@ -52,10 +52,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                 &kp Q  &kp W  &kp E           &kp R                 &kp T           &kp Y         &kp U                   &kp I            &kp O    &kp P     &kp BSPC
-&mt LCTRL GRAVE         &kp A  &kp S  &kp D           &kp F                 &kp G           &kp H         &kp J                   &kp K            &kp L    &kp SEMI  &mt RCTRL APOS
-&mt LEFT_ALT BACKSLASH  &kp Z  &kp X  &kp C           &kp V                 &kp B           &kp N         &kp M                   &kp COMMA        &kp DOT  &kp FSLH  &mt RIGHT_ALT MINUS
-                                      &lt 2 LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 1 RETURN    &lt 1 ESCAPE  &mt RIGHT_SHIFT DELETE  &lt 2 RIGHT_GUI
+&kp TAB                 &kp Q  &kp W  &kp E           &kp R                 &kp T           &kp Y         &kp U                 &kp I            &kp O    &kp P     &kp BSPC
+&mt LCTRL GRAVE         &kp A  &kp S  &kp D           &kp F                 &kp G           &kp H         &kp J                 &kp K            &kp L    &kp SEMI  &mt RCTRL APOS
+&mt LEFT_ALT BACKSLASH  &kp Z  &kp X  &kp C           &kp V                 &kp B           &kp N         &kp M                 &kp COMMA        &kp DOT  &kp FSLH  &mt RIGHT_SHIFT RIGHT_BRACKET
+                                      &lt 2 LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 1 RETURN    &lt 1 ESCAPE  &mt RIGHT_ALT DELETE  &lt 2 RIGHT_GUI
             >;
         };
 
@@ -87,8 +87,8 @@
 
             bindings = <
 &kp TAB             &kp EXCL  &kp AT     &kp HASH        &kp DLLR              &kp PRCNT      &kp CARET     &kp AMPS                &kp ASTRK        &kp LPAR          &kp RPAR           &kp BSPC
-&mt LCTRL GRAVE     &kp PIPE  &kp TILDE  &kp MINUS       &kp PLUS              &kp EQUAL      &trans        &kp PAGE_DOWN           &kp PAGE_UP      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_CONTROL GRAVE
-&mt LEFT_ALT EQUAL  &trans    &trans     &trans          &mkp MB4              &mkp MB5       &trans        &trans                  &kp C_MENU       &kp LEFT_BRACE    &kp RIGHT_BRACE    &mt RIGHT_ALT PIPE
+&mt LCTRL EQUAL     &kp PIPE  &kp TILDE  &kp MINUS       &kp PLUS              &kp EQUAL      &trans        &kp PAGE_DOWN           &kp PAGE_UP      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_CONTROL GRAVE
+&mt LEFT_ALT MINUS  &trans    &trans     &trans          &mkp MB4              &mkp MB5       &trans        &trans                  &kp C_MENU       &kp LEFT_BRACE    &kp RIGHT_BRACE    &mt RIGHT_ALT PIPE
                                          &lt 2 LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 3 ENTER    &lt 3 ESCAPE  &mt RIGHT_SHIFT DELETE  &lt 2 RIGHT_GUI
             >;
         };
