@@ -13,21 +13,6 @@
     combos {
         compatible = "zmk,combos";
 
-        LetterYo {
-            bindings = <&kp GRAVE>;
-            key-positions = <5 4>;
-        };
-
-        HardSign {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <31 32>;
-        };
-
-        Ha {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <10 11>;
-        };
-
         Adjust1 {
             bindings = <&mo 3>;
             key-positions = <36 38>;
@@ -69,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1             &kp N2           &kp N3          &kp N4                &kp N5         &kp N6        &kp N7                  &kp N8           &kp N9     &kp N0   &kp BSPC
-&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE      &kp C_NEXT     &kp LEFT      &kp DOWN                &kp UP           &kp RIGHT  &none    &none
-&kp F1      &kp F2             &kp F3           &kp F4          &kp F5                &kp F6         &kp F7        &kp F8                  &kp F9           &kp F10    &kp F11  &kp F12
-                                                &lt 3 LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 1 ENTER    &lt 1 ESCAPE  &mt RIGHT_SHIFT DELETE  &lt 3 RIGHT_GUI
+&kp TAB     &kp N1             &kp N2           &kp N3          &kp N4                &kp N5         &kp N6        &kp N7                &kp N8           &kp N9     &kp N0   &kp BSPC
+&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE      &kp C_NEXT     &kp LEFT      &kp DOWN              &kp UP           &kp RIGHT  &none    &none
+&kp F1      &kp F2             &kp F3           &kp F4          &kp F5                &kp F6         &kp F7        &kp F8                &kp F9           &kp F10    &kp F11  &kp F12
+                                                &lt 3 LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 1 ENTER    &lt 1 ESCAPE  &mt RIGHT_ALT DELETE  &lt 3 RIGHT_GUI
             >;
         };
 
@@ -86,10 +71,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB             &kp EXCL  &kp AT     &kp HASH        &kp DLLR              &kp PRCNT      &kp CARET     &kp AMPS                &kp ASTRK        &kp LPAR          &kp RPAR           &kp BSPC
-&mt LCTRL EQUAL     &kp PIPE  &kp TILDE  &kp MINUS       &kp PLUS              &kp EQUAL      &trans        &kp PAGE_DOWN           &kp PAGE_UP      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_CONTROL GRAVE
-&mt LEFT_ALT MINUS  &trans    &trans     &trans          &mkp MB4              &mkp MB5       &trans        &trans                  &kp C_MENU       &kp LEFT_BRACE    &kp RIGHT_BRACE    &mt RIGHT_ALT PIPE
-                                         &lt 2 LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 3 ENTER    &lt 3 ESCAPE  &mt RIGHT_SHIFT DELETE  &lt 2 RIGHT_GUI
+&kp TAB             &kp EXCL  &kp AT     &kp HASH        &kp DLLR                 &kp PRCNT      &kp CARET     &kp AMPS              &kp ASTRK        &kp LPAR          &kp RPAR           &kp BSPC
+&mt LCTRL EQUAL     &kp PIPE  &kp TILDE  &kp MINUS       &kp PLUS                 &kp EQUAL      &trans        &kp PAGE_DOWN         &kp PAGE_UP      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mt RIGHT_CONTROL GRAVE
+&mt LEFT_ALT MINUS  &trans    &trans     &trans          &mkp MB4                 &mkp MB5       &trans        &trans                &kp C_MENU       &kp LEFT_BRACE    &kp RIGHT_BRACE    &mt RIGHT_SHIFT PIPE
+                                         &lt 2 LEFT_GUI  &mt LEFT_SHIFT CAPSLOCK  &lt 3 ENTER    &lt 3 ESCAPE  &mt RIGHT_ALT DELETE  &lt 2 RIGHT_GUI
             >;
         };
 
